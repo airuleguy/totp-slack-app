@@ -1,0 +1,25 @@
+{
+  "name": "totp-slack-app",
+  "version": "1.0.0",
+  "description": "Playing around with slack",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "run": "handler"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/airuleguy/totp-slack-app.git"
+  },
+  "author": "airuleguy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/airuleguy/totp-slack-app/issues"
+  },
+  "homepage": "https://github.com/airuleguy/totp-slack-app#readme",
+  "dependencies": {
+    "totp-generator": "0.0.14",
+    "axios": "^0.21.1",
+    "axios-retry": "^3.1.9"
+  }
+}
