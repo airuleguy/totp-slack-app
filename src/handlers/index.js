@@ -12,7 +12,7 @@ exports.handler = async(event) => {
     console.debug(`Event received is: ${JSON.stringify(event)}`);
     
     const token = totp("JBSWY3DPEHPK3PXPXX");
-    const url = "https://hooks.slack.com/services/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";
+    const url = "";
 
     axiosRetry(axios, {
         retries: RETRY_COUNT,
